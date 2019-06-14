@@ -25,7 +25,10 @@
     <div class="container-fluid" id="Cont">
         <div class="row form-group">
             <div class="col-6 col-md-6">
-                <div class="row form-group">
+                <div class="row form-group" id="playButton">
+                    <img height="64" width="78" src="Img/Flecha.png" onclick="playSound('audio/jugar.mp3')">
+                </div>
+                <div class="row form-group" id="counter" hidden="true">
                     <div class="col-10 col-md-6 countdownTimer">
                         <img src="Img/T0.png" id="BT" class="img-fluid mb-n5" data-toggle="tooltip">
                         <!-- Cuenta regresiva 1 minuto -->

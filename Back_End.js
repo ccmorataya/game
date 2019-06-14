@@ -747,15 +747,21 @@ function animo() {
 }
 // Función para reproducir archivos de audio
 function playSound(src) {
-    var mp3snd = src;
-    document.write('<audio autoplay="autoplay">');
-    document.write('<source src="' + mp3snd + '" type="audio/mpeg">');
-    document.write('<!--[if lt IE 9]>');
-    document.write('<bgsound src="' + mp3snd + '" loop="1">');
-    document.write('<![endif]-->');
-    document.write('</audio>');
+    // var mp3snd = src;
+    // document.write('<audio autoplay="autoplay">');
+    // document.write('<source src="' + mp3snd + '" type="audio/mpeg">');
+    // document.write('<!--[if lt IE 9]>');
+    // document.write('<bgsound src="' + mp3snd + '" loop="1">');
+    // document.write('<![endif]-->');
+    // document.write('</audio>');
+    var sound = new Audio(src);
+    sound.play();
+    var playButton = document.getElementById('playButton');
+    var counter = document.getElementById('counter');
+    playButton.hidden = true;
+    counter.hidden = false;
 }
 barajear();
 carga();
 // Reproduce el sonido de fondo del juego
-playSound("audio/jugar.mp3");
+// playSound("audio/jugar.mp3");
