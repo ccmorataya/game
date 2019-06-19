@@ -11,21 +11,21 @@
     <link rel="stylesheet" href="Styles/GameStyles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-    <script type="text/javascript">
-        window.onload = function () {
-            var seconds = 60;
-            var display = document.querySelector('#time');
-            startTimer(seconds, display);
-        };
-    </script>
-
     <title>Memorama</title>
 </head>
 <body id="tres">
     <div class="container-fluid" id="Cont">
         <div class="row form-group">
             <div class="col-6 col-md-6">
-                <div class="row form-group">
+                <div class="row form-group" id="playButton">
+                    <div class="col-10 col-md-5 countdownTimer">
+                        <div class="container">
+                            <img src="Img/Flecha.png" class="img-fluid mb-n5" height="86" width="100">
+                            <div class="centered" onclick="jugar()">Play</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-group" id="counter" hidden="true">
                     <div class="col-10 col-md-6 countdownTimer">
                         <img src="Img/T0.png" id="BT" class="img-fluid mb-n5" data-toggle="tooltip">
                         <!-- Cuenta regresiva 1 minuto -->
