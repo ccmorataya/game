@@ -12,11 +12,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <script type="text/javascript">
-        window.onload = function () {
-            var seconds = 60;
-            var display = document.querySelector('#time');
-            startTimer(seconds, display);
-        };
     </script>
 
     <title>Memorama</title>
@@ -28,8 +23,8 @@
                 <div class="row form-group" id="playButton">
                     <div class="col-10 col-md-5 countdownTimer">
                         <div class="container">
-                            <img src="Img/Flecha.png" class="img-fluid mb-n5" height="64" width="78" onClick="playSound('audio/jugar.mp3')">
-                            <div class="centered">Play</div>
+                            <img src="Img/Flecha.png" class="img-fluid mb-n5" height="86" width="100">
+                            <div class="centered" onclick="jugar()">Play</div>
                         </div>
                     </div>
                 </div>
