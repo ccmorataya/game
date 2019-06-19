@@ -26,7 +26,12 @@
         <div class="row form-group">
             <div class="col-6 col-md-6">
                 <div class="row form-group" id="playButton">
-                    <img height="64" width="78" src="Img/Flecha.png" onclick="playSound('audio/jugar.mp3')">
+                    <div class="col-10 col-md-5 countdownTimer">
+                        <div class="container">
+                            <img src="Img/Flecha.png" class="img-fluid mb-n5" height="64" width="78" onClick="playSound('audio/jugar.mp3')">
+                            <div class="centered">Play</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="row form-group" id="counter" hidden="true">
                     <div class="col-10 col-md-6 countdownTimer">

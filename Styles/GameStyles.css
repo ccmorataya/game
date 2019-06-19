@@ -232,3 +232,48 @@
 .bs-tooltip-left .arrow::before, .bs-tooltip-auto[x-placement^="left"] .arrow::before {
     border-left-color: #fff !important;
 }
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    /* color: white; */
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    /* bottom: 8px; */
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70%;
+}
