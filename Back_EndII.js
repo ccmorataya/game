@@ -679,9 +679,10 @@ function imagen() {
 function ganaste(){
     // Reproduce el sonido cuando gana el juego
     var audioFile = "audio/ganar.mp3";
-    $('#audioElement source').attr('src', audioFile);
-    $("#audioElement")[0].load();
-    
+    var sound = new Audio(audioFile);
+    sound.play();
+    // $('#audioElement source').attr('src', audioFile);
+    // $("#audioElement")[0].load();
     $('[data-toggle="tooltip"]').tooltip('hide');
     var modal = document.createElement("div"); 
     modal.className="row horizontal divPadre";
