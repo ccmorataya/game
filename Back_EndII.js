@@ -678,7 +678,7 @@ function imagen() {
 }
 function ganaste(){
     // Cambia el fondo
-    $('#tres').css('background-image', 'url("../Img/Bg.png")');
+    $('#tres').css('background-image', 'url("./Img/Bg.png")');
     // Reproduce el sonido cuando gana el juego
     sound.pause();
     sound.currentTime = 0;
