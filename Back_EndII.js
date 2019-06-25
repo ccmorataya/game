@@ -788,7 +788,6 @@ function animo() {
 
 // Función para reproducir archivos de audio
 function playSound() {
-    var sound = new Audio();
     sound.play();
     var playButton = document.getElementById('playButton');
     var counter = document.getElementById('counter');
