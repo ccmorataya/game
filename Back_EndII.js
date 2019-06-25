@@ -677,14 +677,18 @@ function imagen() {
     document.getElementById("container").remove();
 }
 function ganaste(){
+    // Cambia el fondo
+    $('tres').css('background-image', 'url("../Img/Bg.png")');
     // Reproduce el sonido cuando gana el juego
+    sound.pause();
+    sound.currentTime = 0;
     var audioFile = "audio/ganar.mp3";
-    var sound = new Audio(audioFile);
-    sound.play();
+    var winSound = new Audio(audioFile);
+    winSound.play();
     // $('#audioElement source').attr('src', audioFile);
     // $("#audioElement")[0].load();
     $('[data-toggle="tooltip"]').tooltip('hide');
-    var modal = document.createElement("div"); 
+    var modal = document.createElement("div");
     modal.className="row horizontal divPadre";
     var modal1 = document.createElement("div");
     modal1.className="col vertical";
@@ -783,8 +787,8 @@ function animo() {
 }
 
 // Función para reproducir archivos de audio
-function playSound(src) {
-    var sound = new Audio(src);
+function playSound() {
+    var sound = new Audio();
     sound.play();
     var playButton = document.getElementById('playButton');
     var counter = document.getElementById('counter');
@@ -798,5 +802,6 @@ function jugar() {
     startTimer(seconds, display);
     barajear();
     carga();
-    playSound('audio/jugar.mp3');
+    playSound();
 }
+var sound = new Audio('audio/jugar.mp3');
