@@ -660,9 +660,9 @@ function imagen() {
     var modal1 = document.createElement("div");
     modal1.className="col vertical";
     var modal2=document.createElement("img");
-    modal2.src="Img/To.png";
+    modal2.src="Img/TO.png";
     modal2.className="img-responsive";
-    modal2.style="max-width:50%; display: block; margin-left: auto; margin-right: auto;";
+    modal2.style="max-width:50%; display: block; margin-left: auto; margin-right: auto; margin-top: 5%";
     modal2.addEventListener("click",function(){ location.href = "GameII.html";});
     var a = document.getElementById("Cont");
     var padre = a.parentNode;
