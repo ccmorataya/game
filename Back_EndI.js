@@ -677,6 +677,8 @@ function imagen() {
     document.getElementById("container").remove();
 }
 function ganaste(){
+    var bg = document.getElementById("dos");
+    bg.style = "background-image: url('./Img/2nd-Level/Bg2_clear.png')"; /* The image used */
     $('[data-toggle="tooltip"]').tooltip('hide');
     var modal = document.createElement("div"); 
     modal.className="row horizontal divPadre";
