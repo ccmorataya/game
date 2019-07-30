@@ -17,6 +17,9 @@
 
     -pie-background: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px 50px #f90;
     behavior: url(/pie/PIE.htc);
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 #dos{
     font:400 140px/1em Courier;
@@ -30,6 +33,9 @@
 
     -pie-background: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px 50px #f90;
     behavior: url(/pie/PIE.htc);
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 #tres{
     font:400 140px/1em Courier;
@@ -43,6 +49,9 @@
 
     -pie-background: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px 50px #f90;
     behavior: url(/pie/PIE.htc);
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 .minh-100 {
