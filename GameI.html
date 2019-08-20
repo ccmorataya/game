@@ -15,25 +15,18 @@
 </head>
 <body id="uno">
     <div class="container-fluid" id="Cont">
-        <div class="row form-group">
-            <div class="col-6 col-md-6">
-                <div class="row form-group" id="playButton">
-                    <div class="col-10 col-md-5 countdownTimer">
-                        <div class="container">
-                            <img src="Img/Flecha.png" class="img-fluid mb-n5" height="86" width="100">
-                            <div class="centered" onclick="jugar()">Play</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row form-group" id="counter" hidden="true">
-                    <div class="col-10 col-md-6 countdownTimer">
-                        <img src="Img/T0.png" id="BT" class="img-fluid mb-n5" data-toggle="tooltip">
-                        <!-- Cuenta regresiva 1 minuto -->
-                        <span id="time">01:00</span>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-6">
+                <img src="Img/membrete.png" class="img-fluid float-left" width="50%" height="50%">
             </div>
-            <div class="col-6 col-md-6">&nbsp;</div>
+            <div class="col-6">
+                <img src="Img/level_1.png" class="img-fluid float-right" width="50%" height="50%">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="Img/header_instrumentos.png" class="img-fluid float-center" width="75%" height="75%">
+            </div>
         </div>
         <div class="row form-group" id="rowCardsTop">
             <div class="col-1 col-md-1">&nbsp;</div>
@@ -95,6 +88,26 @@
                         <img src="Img/Ci.png" class="img-fluid img-circulo" />
                         <p class="textIntentos" id="score">0</p>
                         <img src="Img/In.png" class="img-fluid img-txt-intentos" />
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-6 col-md-6">
+                            <div class="row form-group" id="playButton">
+                                <div class="col-10 col-md-5 countdownTimer">
+                                    <div class="container">
+                                        <img src="Img/Flecha.png" class="img-fluid mb-n5" height="86" width="100">
+                                        <div class="centered" onclick="jugar()">Play</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row form-group" id="counter" hidden="true">
+                                <div class="col-10 col-md-6 countdownTimer">
+                                    <img src="Img/T0.png" id="BT" class="img-fluid mb-n5" data-toggle="tooltip">
+                                    <!-- Cuenta regresiva 1 minuto -->
+                                    <span id="time">01:00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6">&nbsp;</div>
                     </div>
                     <div class="col-4 col-md-3 col-lg-3">
                         <!-- Puntos -->
