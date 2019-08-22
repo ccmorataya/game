@@ -688,7 +688,7 @@ function ganaste(){
     modal2.src="Img/C.png";
     modal2.style="max-width:50%;  display: block; margin-left: auto; margin-right: auto;";
     modal2.className="img-responsive";
-    modal2.addEventListener("click",function(){ location.href = "GameII.html";});
+    modal2.addEventListener("click",function(){ location.href = "GameI_1.html";});
     var a = document.getElementById("Cont");
     var padre = a.parentNode;
     padre.removeChild(a);
