@@ -20,45 +20,7 @@
 #uno{
     font:400 140px/1em Courier;
     text-align:center;
-    /* Ajustes */
-    /* background-image: url("../Img/1st-Level/Bg1.png"); /\* The image used *\/ */
-    /* background-repeat: no-repeat; /\* Do not repeat the image *\/ */
-    /* background-size: 100% 100%; /\* Resize the background image to cover the entire container *\/ */
-    background-color: #fff; /* Used if the image is unavailable */
-    /* background-position: center; /\* Center the image *\/ */
-
-    -pie-background: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px 50px #f90;
-    behavior: url(/pie/PIE.htc);
-    display: flex;
-    align-items: center;
-    justify-content:center;
-}
-#dos{
-    font:400 140px/1em Courier;
-    text-align:center;
-    /* Ajustes */
-    /* background-image: url("../Img/2nd-Level/Bg2.png"); /\* The image used *\/ */
-    /* background-repeat: no-repeat; /\* Do not repeat the image *\/ */
-    /* background-size: 100% 100%; /\* Resize the background image to cover the entire container *\/ */
-    background-color: #fff; /* Used if the image is unavailable */
-    /* background-position: center; /\* Center the image *\/ */
-
-    -pie-background: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px 50px #f90;
-    behavior: url(/pie/PIE.htc);
-    display: flex;
-    align-items: center;
-    justify-content:center;
-}
-#tres{
-    font:400 140px/1em Courier;
-    text-align:center;
-    /* Ajustes */
-    /* background-image: url("../Img/3rd-Level/Bg3.png"); /\* The image used *\/ */
-    /* background-repeat: no-repeat; /\* Do not repeat the image *\/ */
-    /* background-size: 100% 100%; /\* Resize the background image to cover the entire container *\/ */
-    background-color: #fff; /* Used if the image is unavailable */
-    /* background-position: center; /\* Center the image *\/ */
-
+    background-color: #fff;
     -pie-background: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px 50px #f90;
     behavior: url(/pie/PIE.htc);
     display: flex;
