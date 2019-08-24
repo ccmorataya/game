@@ -678,7 +678,7 @@ function imagen() {
 }
 function ganaste(){
     // Cambia el fondo
-    $('#tres').css('background-image', 'url("./Img/Bg.png")');
+    // $('#bground').css('background-image', 'url("./Img/Bg.png")');
     // Reproduce el sonido cuando gana el juego
     sound.pause();
     sound.currentTime = 0;
@@ -734,7 +734,7 @@ function ganaste(){
     modalH1Rcorners.appendChild(modal2);
     /************************************************/
     // Ajustes
-    document.getElementById("container").remove();
+    // document.getElementById("container").remove();
 }
 function hola(){ 
     if(wins.length>=1){

@@ -10,14 +10,14 @@
 }
 
 #uno_uno {
-    background-color: blue;
+    background-color: #004768;
 }
 
 #dos_uno {
-    background-color: green;
+    background-color: #762977;
 }
 
-#uno{
+#bground{
     font:400 140px/1em Courier;
     text-align:center;
     background-color: #fff;

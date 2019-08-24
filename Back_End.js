@@ -677,8 +677,8 @@ function imagen() {
     document.getElementById("container").remove();
 }
 function ganaste(){
-    var bg = document.getElementById("uno");
-    bg.style = "background-image: url('./Img/1st-Level/Bg1_clear.png')"; /* The image used */
+    // var bg = document.getElementById("bground");
+    // bg.style = "background-image: url('./Img/1st-Level/Bg1_clear.png')"; /* The image used */
     $('[data-toggle="tooltip"]').tooltip('hide');
     var modal = document.createElement("div"); 
     modal.className="row horizontal divPadre";
@@ -696,7 +696,7 @@ function ganaste(){
     modal.appendChild(modal1);
     modal1.appendChild(modal2);
     // Ajustes
-    document.getElementById("container").remove();
+    // document.getElementById("container").remove();
 }
 function hola(){ 
     if(wins.length>=1){
