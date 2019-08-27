@@ -254,7 +254,7 @@
 /* Centered text */
 .centered {
     position: absolute;
-    /* bottom: 8px; */
+    bottom: 8px;
     top: 118%;
     left: 47%;
     transform: translate(-50%, -50%);
