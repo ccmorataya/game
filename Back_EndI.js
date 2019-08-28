@@ -759,6 +759,7 @@ function playSound(src) {
 }
 
 function jugar() {
+    $("#playDiv").prop("onclick", null).off("click");
     var seconds = 60;
     var display = document.querySelector('#time');
     startTimer(seconds, display);
