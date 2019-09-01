@@ -18,7 +18,7 @@
 }
 
 #bground{
-    /* font:400 140px/1em Courier; */
+    font:400 140px/1em Courier;
     text-align:center;
     background-color: #fff;
     -pie-background: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px 50px #f90;
